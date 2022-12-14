@@ -50,21 +50,18 @@
 }
 
 .autor{
-    display: flex;
-    flex-direction: row;
-
     h4{
         color: $orange;
         margin-bottom: 0;
     }
     .infos{
-        margin-left: 25px;
+        margin-left: 40px;
     }
     .tag{
         margin: 8px 0;
     }
-    p{
-        max-width: 545px;
+    .img-perfil{
+        max-width: 123px;
     }
     .links-autor{
         ul{
@@ -91,6 +88,15 @@
                     margin-left: 16px;
                 }
             }
+        }
+    }
+
+    @media (max-width: 991px){
+        .img-perfil{
+            margin-bottom: 20px;
+        }
+        .infos{
+            margin-left: 0;
         }
     }
 }
